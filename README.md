@@ -14,3 +14,5 @@ The space character ( ) can simply be backslashed (\ ). Other whitespace charact
 		}
 		
 		
+![Regular expression visualization](sss)
+
