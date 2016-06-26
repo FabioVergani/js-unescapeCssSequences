@@ -14,5 +14,5 @@ The space character ( ) can simply be backslashed (\ ). Other whitespace charact
 		}
 		
 		
-![Regular expression visualization](sss)
+![Regular expression visualization](https://github.com/FabioVergani/js-unescapeCssSequences/blob/master/RegularExpressionVisualization.png)
 
