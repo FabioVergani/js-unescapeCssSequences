@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- HTML 4.01, baby! -->
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Crazy classnames in HTML 4.01</title>
+  <style type="text/css">
+   html { font: 1.2em/1.6 Arial; }
+   code { font-family: Consolas; }
+   li code { background: rgba(255, 255, 255, .5); padding: .3em; }
+   li { background: orange; }
+   .♥ { background: lime; }
+   .© { background: lime; }
+   .“‘’” { background: lime; }
+   .☺☃ { background: lime; }
+   .⌘⌥ { background: lime; }
+   .𝄞♪♩♫♬ { background: lime; }
+   .💩 { background: lime; }
+   .\? { background: lime; }
+   .\@ { background: lime; }
+   .\. { background: lime; }
+   .\3A \) { background: lime; }
+   .\3A \`\( { background: lime; }
+   .\31 23 { background: lime; }
+   .\31 a2b3c { background: lime; }
+   .\<p\> { background: lime; }
+   .\<\>\<\<\<\>\>\<\> { background: lime; }
+   .\+\+\+\+\+\+\+\+\+\+\[\>\+\+\+\+\+\+\+\>\+\+\+\+\+\+\+\+\+\+\>\+\+\+\>\+\<\<\<\<\-\]\>\+\+\.\>\+\.\+\+\+\+\+\+\+\.\.\+\+\+\.\>\+\+\.\<\<\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\.\>\.\+\+\+\.\-\-\-\-\-\-\.\-\-\-\-\-\-\-\-\.\>\+\.\>\. { background: lime; }
+   .\# { background: lime; }
+   .\#\# { background: lime; }
+   .\#\.\#\.\# { background: lime; }
+   .\_ { background: lime; }
+   .\{\} { background: lime; }
+   .\#fake\-id { background: lime; }
+   .foo\.bar { background: lime; }
+   .\3A hover { background: lime; }
+   .\3A hover\3A focus\3A active { background: lime; }
+   .\[attr\=value\] { background: lime; }
+   .f\/o\/o { background: lime; }
+   .f\\o\\o { background: lime; }
+   .f\*o\*o { background: lime; }
+   .f\!o\!o { background: lime; }
+   .f\'o\'o { background: lime; }
+   .f\~o\~o { background: lime; }
+   .f\+o\+o { background: lime; }
+  </style>
+ </head>
+ <body>
+  <p>See <a href="/notes/html5-id-class">“The <code>id</code> and <code>class</code> attributes in HTML5”</a> for more information. You can <a href="/demo/html5-id">view this page with <code>id</code>s instead of <code>class</code>es</a> if you wish.</p>
+  <ul>
+   <li class="♥"><code>class="♥"</code> + <code>.♥ { background: lime; }</code>
+   <li class="©"><code>class="©"</code> + <code>.© { background: lime; }</code>
+   <li class="“‘’”"><code>class="“‘’”"</code> + <code>.“‘’” { background: lime; }</code>
+   <li class="☺☃"><code>class="☺☃"</code> + <code>.☺☃ { background: lime; }</code>
+   <li class="⌘⌥"><code>class="⌘⌥"</code> + <code>.⌘⌥ { background: lime; }</code>
+   <li class="𝄞♪♩♫♬"><code>class="𝄞♪♩♫♬"</code> + <code>.𝄞♪♩♫♬ { background: lime; }</code>
+   <li class="💩"><code>class="💩"</code> + <code>.💩 { background: lime; }</code></li>
+   <li class="?"><code>class="?"</code> + <code>.\? { background: lime; }</code>
+   <li class="@"><code>class="@"</code> + <code>.\@ { background: lime; }</code>
+   <li class="."><code>class="."</code> + <code>.\. { background: lime; }</code>
+   <li class=":)"><code>class=":)"</code> + <code>.\3A \) { background: lime; }</code>
+   <li class=":`("><code>class=":`("</code> + <code>.\3A \`\( { background: lime; }</code>
+   <li class="123"><code>class="123"</code> + <code>.\31 23 { background: lime; }</code>
+   <li class="1a2b3c"><code>class="1a2b3c"</code> + <code>.\31 a2b3c { background: lime; }</code>
+   <li class="<p>"><code>class="&lt;p&gt;"</code> + <code>.\&lt;p\&gt; { background: lime; }</code>
+   <li class="<><<<>><>"><code>class="&lt;&gt;&lt;&lt;&lt;&gt;&gt;&lt;&gt;"</code> + <code>.\&lt;\&gt;\&lt;\&lt;\&lt;\&gt;\&gt;\&lt;\&gt; { background: lime; }</code>
+   <li class="++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>."><code>class="++++++++++[&gt;+++++++&gt;++++++++++&gt;+++&gt;+&lt;&lt;&lt;&lt;-]&gt;++.&gt;+.+++++++..+++.&gt;++.&lt;&lt;+++++++++++++++.&gt;.+++.------.--------.&gt;+.&gt;."</code> + <code>.\+\+\+\+\+\+\+\+\+\+\[\&gt;\+\+\+\+\+\+\+\&gt;\+\+\+\+\+\+\+\+\+\+\&gt;\+\+\+\&gt;\+\&lt;\&lt;\&lt;\&lt;\-\]\&gt;\+\+\.\&gt;\+\.\+\+\+\+\+\+\+\.\.\+\+\+\.\&gt;\+\+\.\&lt;\&lt;\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\.\&gt;\.\+\+\+\.\-\-\-\-\-\-\.\-\-\-\-\-\-\-\-\.\&gt;\+\.\&gt;\. { background: lime; }</code>
+   <li class="#"><code>class="#"</code> + <code>.\# { background: lime; }</code>
+   <li class="##"><code>class="##"</code> + <code>.\#\# { background: lime; }</code>
+   <li class="#.#.#"><code>class="#.#.#"</code> + <code>.\#\.\#\.\# { background: lime; }</code>
+   <li class="_"><code>class="_"</code> + <code>.\_ { background: lime; }</code>
+   <li class="{}"><code>class="{}"</code> + <code>.\{\} { background: lime; }</code>
+   <li class="#fake-id"><code>class="#fake-id"</code> + <code>.\#fake\-id { background: lime; }</code>
+   <li class="foo.bar"><code>class="foo.bar"</code> + <code>.foo\.bar { background: lime; }</code>
+   <li class=":hover"><code>class=":hover"</code> + <code>.\3A hover { background: lime; }</code>
+   <li class=":hover:focus:active"><code>class=":hover:focus:active"</code> + <code>.\3A hover\3A focus\3A active { background: lime; }</code>
+   <li class="[attr=value]"><code>class="[attr=value]"</code> + <code>.\[attr\=value\] { background: lime; }</code>
+   <li class="f/o/o"><code>class="f/o/o"</code> + <code>.f\/o\/o { background: lime; }</code>
+   <li class="f\o\o"><code>class="f\o\o"</code> + <code>.f\\o\\o { background: lime; }</code>
+   <li class="f*o*o"><code>class="f*o*o"</code> + <code>.f\*o\*o { background: lime; }</code>
+   <li class="f!o!o"><code>class="f!o!o"</code> + <code>.f\!o\!o { background: lime; }</code>
+   <li class="f'o'o"><code>class="f'o'o"</code> + <code>.f\'o\'o { background: lime; }</code>
+   <li class="f~o~o"><code>class="f~o~o"</code> + <code>.f\~o\~o { background: lime; }</code>
+   <li class="f+o+o"><code>class="f+o+o"</code> + <code>.f\+o\+o { background: lime; }</code>
+  </ul>
+  <p><a href="//validator.w3.org/check?uri=https://mathiasbynens.be/demo/crazy-class">Valid HTML 4.01!</a></p>
+  <script type="text/javascript">
+
+   function getBackground(el) {
+    return el.currentStyle ? el.currentStyle.backgroundColor : document.defaultView.getComputedStyle(el, null).backgroundColor;
+   }
+
+   window.onload = function() {
+    var lis = document.getElementsByTagName('li');
+    var i = lis.length;
+    while (i--) {
+     var b = getBackground(lis[i]);
+     lis[i].innerHTML += ' ' + ('rgb(0, 255, 0)' == b || 'lime' == b || '#00ff00' == b ? 'PASS' : 'FAIL');
+    }
+   };
+
+	</script>
+ </body>
+</html>
